@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  background: url("../img/bg-header.png");
+  background-size: cover;
+  background-position: center;
+}
+
+header nav {
+  width: 84%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+}
+
+header ul a {
+  color: #ffffff;
+  margin: 0 12px;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+header ul a:hover {
+  border-bottom: 1px solid white;
+}
+
+#hero {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#hero h2 {
+  font-size: 60px;
+  color: yellow;
+  font-weight: 600;
+}
+
+#hero h1 {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 400;
+  margin-bottom: 80px;
+}
+
+#hero button {
+  background: yellow;
+  color: #666;
+  padding: 10px 30px;
+  font-size: 26px;
+  border-radius: 8px;
+}
+
+#planes {
+  width: 100%;
+  position: relative;
+  padding: 120px 0;
+  text-align: center;
+}
+
+#planes h2 {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+#planes p {
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+}
+
+#planes article {
+  margin: 20px 50px;
+  position: relative;
+}
+
+#planes article h3 {
+  position: absolute;
+  top: 120px;
+  color: yellow;
+  width: 100%;
+  text-align: center;
+}
+
+#destinos {
+  width: 100%;
+  padding: 120px 0 50px;
+  background: url(../img/bg-destinos.png);
+  background-size: cover;
+}
+
+.fila {
+  display: flex;
+  justify-content: center;
+}
+
+#destinos article {
+  margin: 30px 100px;
+}
+
+#destinos h3 {
+  color: #ffffff;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+#destino h2 {
+  color: yellow;
+  font-size: 50px;
+  margin-bottom: 30px;
+}
